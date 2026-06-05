@@ -1,0 +1,16 @@
+
+baseURL = "/"
+languageCode = "en-us"
+title = "PowderBlue Leads Daily"
+theme = "custom"
+
+[params]
+  description = "Daily tips on lead generation, prospecting tools, and contact data enrichment for sales teams."
+  author = "Editorial Team"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
